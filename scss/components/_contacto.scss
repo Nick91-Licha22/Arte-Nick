@@ -1,0 +1,37 @@
+/*Contacto*/
+
+.contacto {
+    .redes {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .datos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        form {
+            width: 400px;
+            height: 650px;
+            text-align: center;
+            margin-top: 30px;
+            color: $color-seis;
+            border: 5px solid $color-cuatro;
+            border-radius: 1rem;
+            backdrop-filter: blur(0.9rem);
+            -webkit-backdrop-filter: blur(0.4rem);
+
+            label {
+                font-size: nth($font-size, 3 );
+                display: block;
+                width: 100%;
+            }
+
+            input {
+                margin-bottom: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
