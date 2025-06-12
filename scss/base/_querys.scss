@@ -7,7 +7,11 @@
 
     header {
         .abrir-menu {
-            color: $color-siete;
+            .bi-bi-list {
+            color:  rgb(110, 235, 9);
+            display: block; 
+            width: 15px;
+            height:15px ;}
         }
         .nav {
             opacity: 0;

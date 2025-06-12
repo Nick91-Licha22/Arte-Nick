@@ -600,7 +600,7 @@ body header .logo {
   max-width: 10rem;
 }
 body header .abrir-menu {
-  display: none;
+  display: inline-block;
 }
 body header .nav .cerrar-menu {
   display: none;
@@ -910,8 +910,11 @@ main .proceso img {
     margin: 0;
     box-sizing: border-box;
   }
-  header .abrir-menu {
+  header .abrir-menu .bi-bi-list {
     color: rgb(110, 235, 9);
+    display: block;
+    width: 15px;
+    height: 15px;
   }
   header .nav {
     opacity: 0;
