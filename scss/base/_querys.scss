@@ -1,7 +1,6 @@
 /* Media Queries Index */
 @media screen and (max-width: 650px) {
     header {
-
         .abrir-menu,
         .cerrar-menu {
             display: block;
@@ -9,6 +8,14 @@
             font-size: 1.25rem;
             background-color: transparent;
             cursor: pointer;
+        }
+        .abrir-menu {
+            .bi bi-list {
+            color:  rgb(110, 235, 9);
+            display: block; 
+            width: 15px;
+            height:15px ;}
+
         }
 
         .abrir-menu {

@@ -34,10 +34,30 @@ header {
             color: white;
         }
     }
-
     .abrir-menu,
     .cerrar-menu {
         display: none;
+
+        .abrir-menu {
+           display:inline-block ;
+        }
+
+        .nav {
+            .cerrar-menu {
+                display: none;
+            }
+            .nav-list {
+                list-style-type: none;
+                display: flex;
+                gap: 1rem;
+                
+                li {
+                     a{  text-decoration: none;
+                     color: white; 
+                    }
+                }
+            }
+        }
     }
 }
 
