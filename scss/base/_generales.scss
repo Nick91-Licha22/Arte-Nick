@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Edu SA Beginner", cursive;
     margin: 0;
@@ -10,38 +11,33 @@ body {
     background-image: url(../img/fondo-piedra.jpeg);
     background-attachment: fixed;
     color: white;
+}
 
-    header {
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(17, 17, 17);
+
+    .logo {
+        max-width: 10rem;
+    }
+
+    .nav-list {
+        list-style-type: none;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-        background-color: rgb(17, 17, 17);
+        gap: 1rem;
 
-        .logo {
-            max-width: 10rem;
+        li a {
+            text-decoration: none;
+            color: white;
         }
+    }
 
-        .abrir-menu {
-            display: none;
-        }
-
-        .nav {
-            .cerrar-menu {
-                display: none;
-            }
-            .nav-list {
-                list-style-type: none;
-                display: flex;
-                gap: 1rem;
-                
-                li {
-                     a{  text-decoration: none;
-                     color: white; 
-                    }
-                }
-            }
-        }
+    .abrir-menu,
+    .cerrar-menu {
+        display: none;
     }
 }
 
@@ -58,4 +54,15 @@ footer {
         align-items: center;
         gap: 30px;
     }
+}
+
+.fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+}
+
+.redes {
+    text-align: center;
+    margin-top: 30px;
 }

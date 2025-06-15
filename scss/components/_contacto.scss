@@ -1,37 +1,29 @@
-/*Contacto*/
+/*------------scss contacto--------*/
+.datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.contacto {
-    .redes {
-        text-align: center;
-        margin-top: 30px;
+form {
+    width: 400px;
+    height: 650px;
+    text-align: center;
+    margin-top: 30px;
+    color: aliceblue;
+    border: 5px solid rgba(250, 250, 250, 0.062745098); // Convertido a RGBA para compatibilidad
+    border-radius: 1rem;
+    backdrop-filter: blur(0.9rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+
+    label {
+        font-size: 15px;
+        display: block;
+        width: 100%;
     }
 
-    .datos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        form {
-            width: 400px;
-            height: 650px;
-            text-align: center;
-            margin-top: 30px;
-            color: $color-seis;
-            border: 5px solid $color-cuatro;
-            border-radius: 1rem;
-            backdrop-filter: blur(0.9rem);
-            -webkit-backdrop-filter: blur(0.4rem);
-
-            label {
-                font-size: nth($font-size, 3 );
-                display: block;
-                width: 100%;
-            }
-
-            input {
-                margin-bottom: 20px;
-                padding: 10px;
-            }
-        }
+    input {
+        margin-bottom: 20px;
+        padding: 10px;
     }
 }
