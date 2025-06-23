@@ -3,17 +3,17 @@
   text-align: center;
   padding: 50px;
 
-  h2 {
+  h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    color: rgb(110, 235, 9);
+    font-size: nth($font-size, 6 );
+    color: $color-siete;
     margin-inline-start: 10px;
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: $color-cuatro;
     border-radius: 25px 5px 25px 5px;
   }
 
   p {
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: $color-cuatro;
     text-align: center;
   }
 }
@@ -27,15 +27,15 @@
   flex-wrap: wrap;
 
   img {
-    border: solid black 20px;
+    border: solid $color-uno 20px;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px $color-cuatro;
 
     &:hover {
       transform: scale(1.03);
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 6px 15px $color-cuatro;
       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
   }

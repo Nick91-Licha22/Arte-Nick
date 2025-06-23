@@ -6,12 +6,12 @@
 
   h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    color: rgb(110, 235, 9);
+    font-size: nth($font-size, 6 );
+    color: $color-siete;
     margin-top: 30px;
     width: 100%;
     margin-inline-start: 10px;
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: $color-cuatro;
     border-radius: 25px 5px 25px 5px;
   }
 }
@@ -33,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 2px solid #ddd;
+  border: 2px solid $color-seis;
   padding: 15px;
   border-radius: 8px;
   width: 100%;
@@ -71,8 +71,8 @@
 }
 
 .buy-button {
-  background-color: greenyellow;
-  color: black;
+  background-color: $color-tres;
+  color: $color-uno;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
@@ -81,6 +81,6 @@
   text-decoration: none;
 
   &:hover {
-    background-color: greenyellow;
+    background-color: $color-tres;
   }
 }
